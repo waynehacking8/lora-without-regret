@@ -1,0 +1,46 @@
+# Model weights (large files)
+*.bin
+*.safetensors
+*.pth
+*.pt
+*.ckpt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Weights & Biases
+wandb/
+
+# HuggingFace cache
+.cache/
+*.lock
+
+# Model checkpoints (keep only final model configs and metrics)
+**/checkpoint-*/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Keep JSON metrics and configs
+!*.json
+!**/eval_results.json
+!**/metrics_*.json
+!**/config.json
+!**/tokenizer_config.json
+!**/special_tokens_map.json
+!**/tokenizer.json

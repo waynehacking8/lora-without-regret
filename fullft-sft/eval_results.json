@@ -1,0 +1,7 @@
+{
+  "method": "fullft",
+  "model_path": "./fullft-sft",
+  "perplexity": 3.8974,
+  "avg_loss": 1.3603,
+  "num_samples": 500
+}
