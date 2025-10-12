@@ -1,0 +1,842 @@
+[
+  {
+    "step": 10,
+    "loss": 0.563,
+    "learning_rate": 1.9907455012853473e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.06
+  },
+  {
+    "step": 20,
+    "loss": 0.4655,
+    "learning_rate": 1.980462724935733e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.12
+  },
+  {
+    "step": 30,
+    "loss": 0.456,
+    "learning_rate": 1.9701799485861184e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.18
+  },
+  {
+    "step": 40,
+    "loss": 0.4346,
+    "learning_rate": 1.959897172236504e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.24
+  },
+  {
+    "step": 50,
+    "loss": 0.4254,
+    "learning_rate": 1.9496143958868895e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.3
+  },
+  {
+    "step": 60,
+    "loss": 0.4014,
+    "learning_rate": 1.939331619537275e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.36
+  },
+  {
+    "step": 70,
+    "loss": 0.4056,
+    "learning_rate": 1.929048843187661e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.42
+  },
+  {
+    "step": 80,
+    "loss": 0.409,
+    "learning_rate": 1.9187660668380464e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.48
+  },
+  {
+    "step": 90,
+    "loss": 0.4103,
+    "learning_rate": 1.908483290488432e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.53
+  },
+  {
+    "step": 100,
+    "loss": 0.411,
+    "learning_rate": 1.8982005141388175e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.59
+  },
+  {
+    "step": 110,
+    "loss": 0.4056,
+    "learning_rate": 1.8879177377892034e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.65
+  },
+  {
+    "step": 120,
+    "loss": 0.3843,
+    "learning_rate": 1.877634961439589e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.71
+  },
+  {
+    "step": 130,
+    "loss": 0.4105,
+    "learning_rate": 1.8673521850899745e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.77
+  },
+  {
+    "step": 140,
+    "loss": 0.3946,
+    "learning_rate": 1.85706940874036e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.83
+  },
+  {
+    "step": 150,
+    "loss": 0.4056,
+    "learning_rate": 1.8467866323907456e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.89
+  },
+  {
+    "step": 160,
+    "loss": 0.3766,
+    "learning_rate": 1.836503856041131e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 0.95
+  },
+  {
+    "step": 170,
+    "loss": 0.4071,
+    "learning_rate": 1.826221079691517e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 1.01
+  },
+  {
+    "step": 180,
+    "loss": 0.3808,
+    "learning_rate": 1.8159383033419025e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 1.07
+  },
+  {
+    "step": 190,
+    "loss": 0.3804,
+    "learning_rate": 1.805655526992288e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 1.12
+  },
+  {
+    "step": 200,
+    "loss": 0.3947,
+    "learning_rate": 1.7953727506426736e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 1.18
+  },
+  {
+    "step": 210,
+    "loss": 0.3923,
+    "learning_rate": 1.785089974293059e-05,
+    "gpu_memory_gb": 7.3,
+    "elapsed_time_min": 1.24
+  },
+  {
+    "step": 220,
+    "loss": 0.39,
+    "learning_rate": 1.774807197943445e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 1.3
+  },
+  {
+    "step": 230,
+    "loss": 0.4113,
+    "learning_rate": 1.7645244215938302e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 1.36
+  },
+  {
+    "step": 240,
+    "loss": 0.3963,
+    "learning_rate": 1.754241645244216e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 1.42
+  },
+  {
+    "step": 250,
+    "loss": 0.388,
+    "learning_rate": 1.7439588688946017e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 1.48
+  },
+  {
+    "step": 260,
+    "loss": 0.4024,
+    "learning_rate": 1.7336760925449872e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 1.54
+  },
+  {
+    "step": 270,
+    "loss": 0.3873,
+    "learning_rate": 1.7233933161953728e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 1.6
+  },
+  {
+    "step": 280,
+    "loss": 0.3838,
+    "learning_rate": 1.7131105398457586e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 1.66
+  },
+  {
+    "step": 290,
+    "loss": 0.3949,
+    "learning_rate": 1.7028277634961442e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 1.71
+  },
+  {
+    "step": 300,
+    "loss": 0.4089,
+    "learning_rate": 1.6925449871465297e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 1.77
+  },
+  {
+    "step": 310,
+    "loss": 0.3706,
+    "learning_rate": 1.6822622107969153e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 1.83
+  },
+  {
+    "step": 320,
+    "loss": 0.3909,
+    "learning_rate": 1.6719794344473008e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 1.89
+  },
+  {
+    "step": 330,
+    "loss": 0.3724,
+    "learning_rate": 1.6616966580976867e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 1.95
+  },
+  {
+    "step": 340,
+    "loss": 0.3879,
+    "learning_rate": 1.651413881748072e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.01
+  },
+  {
+    "step": 350,
+    "loss": 0.376,
+    "learning_rate": 1.6411311053984578e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.07
+  },
+  {
+    "step": 360,
+    "loss": 0.3777,
+    "learning_rate": 1.6308483290488433e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.13
+  },
+  {
+    "step": 370,
+    "loss": 0.3916,
+    "learning_rate": 1.620565552699229e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.19
+  },
+  {
+    "step": 380,
+    "loss": 0.3765,
+    "learning_rate": 1.6102827763496144e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.25
+  },
+  {
+    "step": 389,
+    "loss": null,
+    "learning_rate": null,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.35
+  },
+  {
+    "step": 390,
+    "loss": 0.3819,
+    "learning_rate": 1.6000000000000003e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.38
+  },
+  {
+    "step": 400,
+    "loss": 0.3179,
+    "learning_rate": 1.5897172236503858e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.44
+  },
+  {
+    "step": 410,
+    "loss": 0.3126,
+    "learning_rate": 1.5794344473007713e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.5
+  },
+  {
+    "step": 420,
+    "loss": 0.3402,
+    "learning_rate": 1.569151670951157e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.56
+  },
+  {
+    "step": 430,
+    "loss": 0.3297,
+    "learning_rate": 1.5588688946015424e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.62
+  },
+  {
+    "step": 440,
+    "loss": 0.3095,
+    "learning_rate": 1.5485861182519283e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.68
+  },
+  {
+    "step": 450,
+    "loss": 0.336,
+    "learning_rate": 1.5383033419023135e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.74
+  },
+  {
+    "step": 460,
+    "loss": 0.3389,
+    "learning_rate": 1.5280205655526994e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.8
+  },
+  {
+    "step": 470,
+    "loss": 0.3183,
+    "learning_rate": 1.517737789203085e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.86
+  },
+  {
+    "step": 480,
+    "loss": 0.3382,
+    "learning_rate": 1.5074550128534706e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.92
+  },
+  {
+    "step": 490,
+    "loss": 0.3231,
+    "learning_rate": 1.4971722365038562e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 2.98
+  },
+  {
+    "step": 500,
+    "loss": 0.34,
+    "learning_rate": 1.4868894601542419e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.03
+  },
+  {
+    "step": 510,
+    "loss": 0.3248,
+    "learning_rate": 1.4766066838046273e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.09
+  },
+  {
+    "step": 520,
+    "loss": 0.3337,
+    "learning_rate": 1.4663239074550132e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.15
+  },
+  {
+    "step": 530,
+    "loss": 0.3308,
+    "learning_rate": 1.4560411311053985e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.21
+  },
+  {
+    "step": 540,
+    "loss": 0.3288,
+    "learning_rate": 1.445758354755784e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.27
+  },
+  {
+    "step": 550,
+    "loss": 0.3398,
+    "learning_rate": 1.4354755784061698e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.33
+  },
+  {
+    "step": 560,
+    "loss": 0.3299,
+    "learning_rate": 1.4251928020565553e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.39
+  },
+  {
+    "step": 570,
+    "loss": 0.3314,
+    "learning_rate": 1.414910025706941e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.45
+  },
+  {
+    "step": 580,
+    "loss": 0.3378,
+    "learning_rate": 1.4046272493573266e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.51
+  },
+  {
+    "step": 590,
+    "loss": 0.3271,
+    "learning_rate": 1.3943444730077123e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.57
+  },
+  {
+    "step": 600,
+    "loss": 0.312,
+    "learning_rate": 1.3840616966580978e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.63
+  },
+  {
+    "step": 610,
+    "loss": 0.3142,
+    "learning_rate": 1.3737789203084835e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.69
+  },
+  {
+    "step": 620,
+    "loss": 0.3253,
+    "learning_rate": 1.3634961439588689e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.75
+  },
+  {
+    "step": 630,
+    "loss": 0.3294,
+    "learning_rate": 1.3532133676092548e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.81
+  },
+  {
+    "step": 640,
+    "loss": 0.3115,
+    "learning_rate": 1.3429305912596402e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.87
+  },
+  {
+    "step": 650,
+    "loss": 0.3281,
+    "learning_rate": 1.3326478149100257e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.93
+  },
+  {
+    "step": 660,
+    "loss": 0.3223,
+    "learning_rate": 1.3223650385604114e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 3.99
+  },
+  {
+    "step": 670,
+    "loss": 0.333,
+    "learning_rate": 1.312082262210797e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.05
+  },
+  {
+    "step": 680,
+    "loss": 0.3147,
+    "learning_rate": 1.3017994858611827e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.11
+  },
+  {
+    "step": 690,
+    "loss": 0.3173,
+    "learning_rate": 1.2915167095115682e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.17
+  },
+  {
+    "step": 700,
+    "loss": 0.3355,
+    "learning_rate": 1.2812339331619539e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.23
+  },
+  {
+    "step": 710,
+    "loss": 0.3333,
+    "learning_rate": 1.2709511568123395e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.29
+  },
+  {
+    "step": 720,
+    "loss": 0.3245,
+    "learning_rate": 1.2606683804627252e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.35
+  },
+  {
+    "step": 730,
+    "loss": 0.3165,
+    "learning_rate": 1.2503856041131105e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.41
+  },
+  {
+    "step": 740,
+    "loss": 0.3191,
+    "learning_rate": 1.2401028277634962e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.47
+  },
+  {
+    "step": 750,
+    "loss": 0.3419,
+    "learning_rate": 1.2298200514138818e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.53
+  },
+  {
+    "step": 760,
+    "loss": 0.3406,
+    "learning_rate": 1.2195372750642675e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.59
+  },
+  {
+    "step": 770,
+    "loss": 0.326,
+    "learning_rate": 1.209254498714653e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.65
+  },
+  {
+    "step": 778,
+    "loss": null,
+    "learning_rate": null,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.74
+  },
+  {
+    "step": 780,
+    "loss": 0.3287,
+    "learning_rate": 1.1989717223650386e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.79
+  },
+  {
+    "step": 790,
+    "loss": 0.3163,
+    "learning_rate": 1.1886889460154243e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.85
+  },
+  {
+    "step": 800,
+    "loss": 0.3032,
+    "learning_rate": 1.1784061696658098e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.91
+  },
+  {
+    "step": 810,
+    "loss": 0.2852,
+    "learning_rate": 1.1681233933161955e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 4.97
+  },
+  {
+    "step": 820,
+    "loss": 0.2891,
+    "learning_rate": 1.1578406169665811e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.03
+  },
+  {
+    "step": 830,
+    "loss": 0.296,
+    "learning_rate": 1.1475578406169668e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.09
+  },
+  {
+    "step": 840,
+    "loss": 0.3029,
+    "learning_rate": 1.1372750642673522e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.15
+  },
+  {
+    "step": 850,
+    "loss": 0.31,
+    "learning_rate": 1.1269922879177379e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.21
+  },
+  {
+    "step": 860,
+    "loss": 0.2972,
+    "learning_rate": 1.1167095115681234e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.27
+  },
+  {
+    "step": 870,
+    "loss": 0.2957,
+    "learning_rate": 1.1064267352185091e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.33
+  },
+  {
+    "step": 880,
+    "loss": 0.2833,
+    "learning_rate": 1.0961439588688947e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.39
+  },
+  {
+    "step": 890,
+    "loss": 0.2978,
+    "learning_rate": 1.0858611825192802e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.45
+  },
+  {
+    "step": 900,
+    "loss": 0.281,
+    "learning_rate": 1.075578406169666e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.51
+  },
+  {
+    "step": 910,
+    "loss": 0.3065,
+    "learning_rate": 1.0652956298200515e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.57
+  },
+  {
+    "step": 920,
+    "loss": 0.2912,
+    "learning_rate": 1.0550128534704372e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.62
+  },
+  {
+    "step": 930,
+    "loss": 0.3027,
+    "learning_rate": 1.0447300771208227e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.68
+  },
+  {
+    "step": 940,
+    "loss": 0.2994,
+    "learning_rate": 1.0344473007712084e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.74
+  },
+  {
+    "step": 950,
+    "loss": 0.2803,
+    "learning_rate": 1.0241645244215938e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.8
+  },
+  {
+    "step": 960,
+    "loss": 0.3077,
+    "learning_rate": 1.0138817480719795e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.86
+  },
+  {
+    "step": 970,
+    "loss": 0.2901,
+    "learning_rate": 1.003598971722365e-05,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.92
+  },
+  {
+    "step": 980,
+    "loss": 0.282,
+    "learning_rate": 9.933161953727508e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 5.98
+  },
+  {
+    "step": 990,
+    "loss": 0.2942,
+    "learning_rate": 9.830334190231363e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.04
+  },
+  {
+    "step": 1000,
+    "loss": 0.2964,
+    "learning_rate": 9.727506426735219e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.1
+  },
+  {
+    "step": 1010,
+    "loss": 0.3038,
+    "learning_rate": 9.624678663239076e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.16
+  },
+  {
+    "step": 1020,
+    "loss": 0.2869,
+    "learning_rate": 9.521850899742931e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.22
+  },
+  {
+    "step": 1030,
+    "loss": 0.285,
+    "learning_rate": 9.419023136246788e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.28
+  },
+  {
+    "step": 1040,
+    "loss": 0.2862,
+    "learning_rate": 9.316195372750644e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.34
+  },
+  {
+    "step": 1050,
+    "loss": 0.2958,
+    "learning_rate": 9.2133676092545e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.4
+  },
+  {
+    "step": 1060,
+    "loss": 0.2795,
+    "learning_rate": 9.110539845758356e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.46
+  },
+  {
+    "step": 1070,
+    "loss": 0.2848,
+    "learning_rate": 9.007712082262211e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.52
+  },
+  {
+    "step": 1080,
+    "loss": 0.2901,
+    "learning_rate": 8.904884318766067e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.58
+  },
+  {
+    "step": 1090,
+    "loss": 0.294,
+    "learning_rate": 8.802056555269924e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.64
+  },
+  {
+    "step": 1100,
+    "loss": 0.2945,
+    "learning_rate": 8.69922879177378e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.7
+  },
+  {
+    "step": 1110,
+    "loss": 0.2956,
+    "learning_rate": 8.596401028277635e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.76
+  },
+  {
+    "step": 1120,
+    "loss": 0.2842,
+    "learning_rate": 8.493573264781492e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.82
+  },
+  {
+    "step": 1130,
+    "loss": 0.287,
+    "learning_rate": 8.390745501285347e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.87
+  },
+  {
+    "step": 1140,
+    "loss": 0.2811,
+    "learning_rate": 8.287917737789204e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.93
+  },
+  {
+    "step": 1150,
+    "loss": 0.2906,
+    "learning_rate": 8.18508997429306e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 6.99
+  },
+  {
+    "step": 1160,
+    "loss": 0.2987,
+    "learning_rate": 8.082262210796917e-06,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 7.05
+  },
+  {
+    "step": 1167,
+    "loss": null,
+    "learning_rate": null,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 7.14
+  },
+  {
+    "step": 1167,
+    "loss": null,
+    "learning_rate": null,
+    "gpu_memory_gb": 7.32,
+    "elapsed_time_min": 7.18
+  }
+]

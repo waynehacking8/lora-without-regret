@@ -136,8 +136,8 @@ def main():
     # Auto-detect evaluation type
     eval_type = args.eval_type
     if eval_type == "auto":
-        # Check if dataset is MMLU (has choices field)
-        if 'choices' in ds.column_names and 'answer' in ds.column_names:
+        # Check if dataset is multiple choice (MMLU has 'answer', CSQA has 'answerKey')
+        if 'choices' in ds.column_names and ('answer' in ds.column_names or 'answerKey' in ds.column_names):
             eval_type = "accuracy"
         else:
             eval_type = "perplexity"
@@ -145,16 +145,29 @@ def main():
 
     # Prepare data based on evaluation type
     if eval_type == "accuracy":
-        # MMLU: multiple choice questions
+        # MMLU or CSQA: multiple choice questions
         questions = []
         for item in ds:
             if len(questions) >= args.max_samples:
                 break
-            questions.append({
-                'question': item['question'],
-                'choices': item['choices'],
-                'answer': item['answer']
-            })
+
+            # Check if CSQA format (choices is dict with 'label' and 'text')
+            if isinstance(item['choices'], dict) and 'label' in item['choices']:
+                # CSQA format
+                questions.append({
+                    'question': item['question'],
+                    'choices': item['choices']['text'],  # Extract text list
+                    'answer': item['choices']['label'].index(item['answerKey']),  # Convert letter to index
+                    'format': 'csqa'
+                })
+            else:
+                # MMLU format
+                questions.append({
+                    'question': item['question'],
+                    'choices': item['choices'],
+                    'answer': item['answer'],
+                    'format': 'mmlu'
+                })
 
         print(f"Evaluating {len(questions)} questions (accuracy)")
         accuracy, correct, total = compute_accuracy(model, tokenizer, questions, args.max_length)

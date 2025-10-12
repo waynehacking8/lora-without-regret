@@ -1,0 +1,48 @@
+Using Python: Python 3.10.12
+
+========================================
+CSQA Llama Experiment
+========================================
+Model: Llama-3.2-1B-Instruct
+Dataset: CommonsenseQA (common sense reasoning)
+Methods: LoRA-Attention, LoRA-All, Full Fine-Tuning
+Training: 5 epochs (early stopping patience=2)
+Total experiments: 3 (estimated time: 1-1.5 days)
+
+========================================
+Experiment 1/3: llama-csqa-lora-attention
+========================================
+Model: meta-llama/Llama-3.2-1B-Instruct
+Dataset: tau/commonsense_qa
+Method: lora-attention
+Max seq length: 512
+Output: ./results/llama-csqa-lora-attention
+
+Downloading readme:   0%|          | 0.00/7.39k [00:00<?, ?B/s]Downloading readme: 100%|██████████| 7.39k/7.39k [00:00<00:00, 15.5kB/s]Downloading readme: 100%|██████████| 7.39k/7.39k [00:00<00:00, 15.5kB/s]
+Downloading data:   0%|          | 0.00/1.25M [00:00<?, ?B/s]Downloading data: 100%|██████████| 1.25M/1.25M [00:00<00:00, 2.18MB/s]Downloading data: 100%|██████████| 1.25M/1.25M [00:00<00:00, 2.17MB/s]
+Downloading data:   0%|          | 0.00/160k [00:00<?, ?B/s]Downloading data: 100%|██████████| 160k/160k [00:00<00:00, 709kB/s]Downloading data: 100%|██████████| 160k/160k [00:00<00:00, 704kB/s]
+Downloading data:   0%|          | 0.00/151k [00:00<?, ?B/s]Downloading data: 100%|██████████| 151k/151k [00:00<00:00, 671kB/s]Downloading data: 100%|██████████| 151k/151k [00:00<00:00, 667kB/s]
+Generating train split:   0%|          | 0/9741 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 9741/9741 [00:00<00:00, 215411.75 examples/s]
+Generating validation split:   0%|          | 0/1221 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 1221/1221 [00:00<00:00, 161085.97 examples/s]
+Generating test split:   0%|          | 0/1140 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1140/1140 [00:00<00:00, 207135.10 examples/s]
+Training samples: 9741
+Validation samples: 200
+Map:   0%|          | 0/9741 [00:00<?, ? examples/s]Map:   0%|          | 0/9741 [00:00<?, ? examples/s]
+Traceback (most recent call last):
+  File "/home/wayneleo8/lora_without_regret/sft_compare.py", line 230, in <module>
+    main()
+  File "/home/wayneleo8/lora_without_regret/sft_compare.py", line 144, in main
+    train_ds = train_ds.map(convert_to_messages, remove_columns=[col for col in original_columns if col != 'messages'])
+  File "/home/wayneleo8/.local/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 602, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+  File "/home/wayneleo8/.local/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 567, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+  File "/home/wayneleo8/.local/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 3167, in map
+    for rank, done, content in Dataset._map_single(**dataset_kwargs):
+  File "/home/wayneleo8/.local/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 3528, in _map_single
+    example = apply_function_on_filtered_inputs(example, i, offset=offset)
+  File "/home/wayneleo8/.local/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 3427, in apply_function_on_filtered_inputs
+    processed_inputs = function(*fn_args, *additional_args, **fn_kwargs)
+  File "/home/wayneleo8/lora_without_regret/sft_compare.py", line 140, in convert_to_messages
+    raise ValueError(f"Unsupported dataset format. Available keys: {example.keys()}")
+ValueError: Unsupported dataset format. Available keys: KeysView({'id': '075e483d21c29a511267ef62bedc0461', 'question': 'The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?', 'question_concept': 'punishing', 'choices': {'label': ['A', 'B', 'C', 'D', 'E'], 'text': ['ignore', 'enforce', 'authoritarian', 'yell at', 'avoid']}, 'answerKey': 'A'})

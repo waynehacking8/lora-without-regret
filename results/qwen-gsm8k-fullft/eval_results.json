@@ -1,8 +1,0 @@
-{
-  "method": "fullft",
-  "model_path": "./results/qwen-gsm8k-fullft",
-  "eval_type": "perplexity",
-  "perplexity": 3.6509,
-  "avg_loss": 1.295,
-  "num_samples": 819
-}

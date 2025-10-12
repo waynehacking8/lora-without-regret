@@ -1,0 +1,9 @@
+{
+  "method": "fullft",
+  "model_path": "/home/wayneleo8/lora_without_regret/results/llama-csqa-fullft",
+  "eval_type": "accuracy",
+  "accuracy": 0.595,
+  "correct": 595,
+  "total": 1000,
+  "num_samples": 1000
+}

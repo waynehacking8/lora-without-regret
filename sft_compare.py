@@ -115,6 +115,24 @@ def main():
             ]
             return {"messages": messages}
 
+        # CommonsenseQA format: question + choices (dict with label/text) + answerKey
+        elif 'question' in example and 'choices' in example and isinstance(example['choices'], dict) and 'answerKey' in example:
+            # Format: Question + Options A/B/C/D/E, Answer: correct letter
+            choices = example['choices']
+            choices_text = "\n".join([f"{label}. {text}" for label, text in zip(choices['label'], choices['text'])])
+            question = f"{example['question']}\n\nChoices:\n{choices_text}"
+
+            # Find the answer text corresponding to answerKey
+            answer_key = example['answerKey']
+            answer_idx = choices['label'].index(answer_key)
+            answer_text = f"{answer_key}. {choices['text'][answer_idx]}"
+
+            messages = [
+                {"role": "user", "content": question},
+                {"role": "assistant", "content": f"The answer is {answer_text}"}
+            ]
+            return {"messages": messages}
+
         # GSM8K format: question + answer (string)
         elif 'question' in example and 'answer' in example and isinstance(example['answer'], str):
             messages = [

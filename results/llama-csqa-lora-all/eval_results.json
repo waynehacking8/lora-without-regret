@@ -1,0 +1,9 @@
+{
+  "method": "lora-all",
+  "model_path": "/home/wayneleo8/lora_without_regret/results/llama-csqa-lora-all",
+  "eval_type": "accuracy",
+  "accuracy": 0.582,
+  "correct": 582,
+  "total": 1000,
+  "num_samples": 1000
+}

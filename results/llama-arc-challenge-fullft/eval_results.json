@@ -1,0 +1,9 @@
+{
+  "method": "fullft",
+  "model_path": "./results/llama-arc-challenge-fullft",
+  "eval_type": "accuracy",
+  "accuracy": 0.481,
+  "correct": 481,
+  "total": 1000,
+  "num_samples": 1000
+}

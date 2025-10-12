@@ -1,0 +1,9 @@
+{
+  "method": "lora-all",
+  "model_path": "./results/llama-arc-challenge-lora-all",
+  "eval_type": "accuracy",
+  "accuracy": 0.526,
+  "correct": 526,
+  "total": 1000,
+  "num_samples": 1000
+}

@@ -1,0 +1,9 @@
+{
+  "method": "fullft",
+  "model_path": "./results/llama-arc-easy-fullft",
+  "eval_type": "accuracy",
+  "accuracy": 0.758,
+  "correct": 758,
+  "total": 1000,
+  "num_samples": 1000
+}
