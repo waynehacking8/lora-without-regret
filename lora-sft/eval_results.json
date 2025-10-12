@@ -1,7 +1,7 @@
 {
   "method": "lora",
   "model_path": "./lora-sft",
-  "perplexity": 3.8962,
-  "avg_loss": 1.36,
+  "perplexity": 3.4507,
+  "avg_loss": 1.2386,
   "num_samples": 500
 }
