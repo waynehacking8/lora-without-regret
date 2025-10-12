@@ -1,0 +1,8 @@
+{
+  "method": "lora-attention",
+  "model_path": "./results/llama-gsm8k-lora-attention",
+  "eval_type": "perplexity",
+  "perplexity": 3.4971,
+  "avg_loss": 1.2519,
+  "num_samples": 819
+}

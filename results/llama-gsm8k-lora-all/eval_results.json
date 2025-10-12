@@ -1,0 +1,8 @@
+{
+  "method": "lora-all",
+  "model_path": "./results/llama-gsm8k-lora-all",
+  "eval_type": "perplexity",
+  "perplexity": 3.4585,
+  "avg_loss": 1.2408,
+  "num_samples": 819
+}

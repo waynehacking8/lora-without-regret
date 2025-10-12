@@ -48,7 +48,7 @@ def parse_args():
     p.add_argument("--split", default="train", help="Training dataset split")
     p.add_argument("--eval_split", default="test[:500]", help="Validation dataset split (for early stopping)")
     p.add_argument("--out", default="./out-sft")
-    p.add_argument("--method", choices=["lora", "fullft"], required=True)
+    p.add_argument("--method", choices=["lora-attention", "lora-all", "fullft"], required=True)
     p.add_argument("--num_train_epochs", type=int, default=15, help="Number of training epochs (default: 15)")
     p.add_argument("--max_steps", type=int, default=-1, help="Max steps (overrides epochs if > 0)")
     p.add_argument("--max_seq_length", type=int, default=1024)
@@ -98,8 +98,25 @@ def main():
     def convert_to_messages(example):
         """Convert various dataset formats to 'messages' format"""
 
-        # GSM8K format: question + answer
-        if 'question' in example and 'answer' in example:
+        # MMLU format: question + choices + answer (multiple choice)
+        if 'question' in example and 'choices' in example and 'answer' in example and isinstance(example['choices'], list):
+            # Format: Question + Options A/B/C/D, Answer: correct option
+            choices_text = "\n".join([f"{chr(65+i)}. {choice}" for i, choice in enumerate(example['choices'])])
+            question = f"{example['question']}\n\n{choices_text}"
+
+            # Convert answer index to letter
+            answer_idx = example['answer']
+            answer_letter = chr(65 + answer_idx)  # 0->A, 1->B, 2->C, 3->D
+            answer_text = f"{answer_letter}. {example['choices'][answer_idx]}"
+
+            messages = [
+                {"role": "user", "content": question},
+                {"role": "assistant", "content": answer_text}
+            ]
+            return {"messages": messages}
+
+        # GSM8K format: question + answer (string)
+        elif 'question' in example and 'answer' in example and isinstance(example['answer'], str):
             messages = [
                 {"role": "user", "content": example['question']},
                 {"role": "assistant", "content": example['answer']}
@@ -128,49 +145,58 @@ def main():
     eval_ds = eval_ds.map(convert_to_messages, remove_columns=[col for col in original_columns if col != 'messages'])
 
     peft_cfg = None
-    # LoRA without Regret: HF docs specific values
-    if a.method == "lora":
-        lr = a.lora_lr  # 1e-5 per HF docs
+    # LoRA configurations
+    if a.method == "lora-attention":
+        # LoRA only on attention layers (Q, K, V, O projections)
+        lr = a.lora_lr
         peft_cfg = LoraConfig(
             r=a.lora_rank,
             lora_alpha=a.lora_alpha,
-            lora_dropout=0.0,  # HF docs: use 0.0
+            lora_dropout=0.0,
+            target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
+            task_type="CAUSAL_LM",
+        )
+    elif a.method == "lora-all":
+        # LoRA without Regret: all linear layers
+        lr = a.lora_lr
+        peft_cfg = LoraConfig(
+            r=a.lora_rank,
+            lora_alpha=a.lora_alpha,
+            lora_dropout=0.0,
             target_modules="all-linear",
             task_type="CAUSAL_LM",
         )
-    else:
-        lr = a.fullft_lr  # 1e-6 per HF docs
+    else:  # fullft
+        lr = a.fullft_lr
+
+    # Configure training parameters based on max_steps or epochs
+    training_config = {
+        "output_dir": a.out,
+        "per_device_train_batch_size": a.per_device_train_batch_size,
+        "per_device_eval_batch_size": a.per_device_train_batch_size,
+        "gradient_accumulation_steps": a.grad_accum,
+        "learning_rate": lr,
+        "logging_steps": 10,
+        "bf16": a.bf16,
+        "fp16": not a.bf16,
+        "max_seq_length": a.max_seq_length,
+        "packing": True,
+        # Evaluation and checkpoint strategy (use eval_strategy not evaluation_strategy)
+        "eval_strategy": "epoch",
+        "save_strategy": "epoch",
+        "save_total_limit": 3,
+        "load_best_model_at_end": True,
+        "metric_for_best_model": "eval_loss",
+        "greater_is_better": False,
+    }
 
     # Use max_steps if specified, otherwise use epochs
     if a.max_steps > 0:
-        max_steps = a.max_steps
-        num_train_epochs = None
+        training_config["max_steps"] = a.max_steps
     else:
-        max_steps = -1
-        num_train_epochs = a.num_train_epochs
+        training_config["num_train_epochs"] = a.num_train_epochs
 
-    cfg = SFTConfig(
-        output_dir=a.out,
-        per_device_train_batch_size=a.per_device_train_batch_size,
-        per_device_eval_batch_size=a.per_device_train_batch_size,
-        gradient_accumulation_steps=a.grad_accum,
-        learning_rate=lr,
-        logging_steps=10,
-        bf16=a.bf16,
-        fp16=not a.bf16,
-        max_seq_length=a.max_seq_length,
-        packing=True,
-        # Evaluation and checkpoint strategy (use eval_strategy not evaluation_strategy)
-        eval_strategy="epoch",
-        save_strategy="epoch",
-        save_total_limit=3,
-        load_best_model_at_end=True,
-        metric_for_best_model="eval_loss",
-        greater_is_better=False,
-        # Training length
-        max_steps=max_steps,
-        num_train_epochs=num_train_epochs,
-    )
+    cfg = SFTConfig(**training_config)
 
     metrics_cb = MetricsCallback()
     early_stopping_cb = EarlyStoppingCallback(early_stopping_patience=a.early_stopping_patience)

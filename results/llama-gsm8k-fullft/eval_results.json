@@ -1,0 +1,8 @@
+{
+  "method": "fullft",
+  "model_path": "./results/llama-gsm8k-fullft",
+  "eval_type": "perplexity",
+  "perplexity": 3.3597,
+  "avg_loss": 1.2118,
+  "num_samples": 819
+}
