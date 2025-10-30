@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+import os
+os.environ["WANDB_DISABLED"] = "true"
+os.environ["WANDB_MODE"] = "offline"
+
 import argparse
 import json
 import time
@@ -8,6 +12,8 @@ from datasets import load_dataset
 from transformers import AutoModelForCausalLM, AutoTokenizer, TrainerCallback, EarlyStoppingCallback
 from trl import SFTTrainer, SFTConfig
 from peft import LoraConfig
+
+print("✓ Wandb disabled via environment variables")
 
 
 class MetricsCallback(TrainerCallback):
@@ -197,8 +203,9 @@ def main():
         "logging_steps": 10,
         "bf16": a.bf16,
         "fp16": not a.bf16,
-        "max_seq_length": a.max_seq_length,
         "packing": True,
+        # Disable wandb and other logging
+        "report_to": [],
         # Evaluation and checkpoint strategy (use eval_strategy not evaluation_strategy)
         "eval_strategy": "epoch",
         "save_strategy": "epoch",
@@ -221,7 +228,7 @@ def main():
 
     trainer = SFTTrainer(
         model=model,
-        tokenizer=tok,
+        processing_class=tok,
         peft_config=peft_cfg,
         train_dataset=train_ds,
         eval_dataset=eval_ds,
@@ -237,6 +244,8 @@ def main():
     print(f"  Early Stopping Patience: {a.early_stopping_patience} epochs")
     print(f"  Batch Size: {a.per_device_train_batch_size} x {a.grad_accum} = {a.per_device_train_batch_size * a.grad_accum}")
     print(f"{'='*60}\n")
+
+    print("DEBUG: About to call trainer.train()...")
 
     trainer.train()
     trainer.save_model()

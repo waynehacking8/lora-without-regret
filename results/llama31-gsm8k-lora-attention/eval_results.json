@@ -1,0 +1,6 @@
+{
+  "method": "lora-attention",
+  "perplexity": 2.417414865695063,
+  "avg_loss": 0.8826987318803651,
+  "num_samples": 500
+}

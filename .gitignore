@@ -44,3 +44,16 @@ wandb/
 !**/tokenizer_config.json
 !**/special_tokens_map.json
 !**/tokenizer.json
+
+# Logs directory
+logs/
+
+# Test directories
+test-*/
+
+# Sensitive files
+huggingface_token.txt
+
+# Backup files
+*.bak
+*~.nib

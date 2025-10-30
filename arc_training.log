@@ -1,45 +1,0 @@
-Using Python: Python 3.10.12
-
-========================================
-ARC Llama Experiment
-========================================
-Model: Llama-3.2-1B-Instruct
-Datasets: ARC-Easy + ARC-Challenge
-Methods: LoRA-Attention, LoRA-All, Full Fine-Tuning
-Training: 5 epochs (early stopping patience=2)
-Total experiments: 6 (estimated time: 45-75 minutes)
-
-========================================
-Experiment 1/3: llama-arc-easy-lora-attention
-========================================
-Model: meta-llama/Llama-3.2-1B-Instruct
-Dataset: allenai/ai2_arc (ARC-Easy)
-Method: lora-attention
-Max seq length: 512
-Output: ./results/llama-arc-easy-lora-attention
-
-/home/wayneleo8/lora_without_regret/sft_compare.py:222: FutureWarning: `tokenizer` is deprecated and removed starting from version 0.16.0 for `SFTTrainer.__init__`. Use `processing_class` instead.
-  trainer = SFTTrainer(
-The model is already on multiple devices. Skipping the move to device specified in `args`.
-The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 128009, 'pad_token_id': 128009}.
-wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
-wandb: Currently logged in as: waynehacking8 (waynehacking8-national-taiwan-university-of-science-and-). Use `wandb login --relogin` to force relogin
-wandb: Tracking run with wandb version 0.18.3
-wandb: Run data is saved locally in /home/wayneleo8/lora_without_regret/wandb/run-20251012_160054-572h5frx
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run fiery-sun-48
-wandb: ⭐️ View project at https://wandb.ai/waynehacking8-national-taiwan-university-of-science-and-/huggingface
-wandb: 🚀 View run at https://wandb.ai/waynehacking8-national-taiwan-university-of-science-and-/huggingface/runs/572h5frx
-Training samples: 2251
-Validation samples: 200
-
-============================================================
-Training Configuration:
-  Method: LORA-ATTENTION
-  Learning Rate: 0.0002
-  Epochs: 5
-  Early Stopping Patience: 2 epochs
-  Batch Size: 1 x 4 = 4
-============================================================
-
-  0%|          | 0/545 [00:00<?, ?it/s]  0%|          | 1/545 [00:00<04:10,  2.18it/s]  0%|          | 2/545 [00:00<03:00,  3.00it/s]  1%|          | 3/545 [00:00<02:37,  3.44it/s]  1%|          | 4/545 [00:01<02:27,  3.68it/s]  1%|          | 5/545 [00:01<02:20,  3.85it/s]  1%|          | 6/545 [00:01<02:16,  3.96it/s]  1%|▏         | 7/545 [00:01<02:16,  3.95it/s]  1%|▏         | 8/545 [00:02<02:15,  3.97it/s]  2%|▏         | 9/545 [00:02<02:13,  4.03it/s]  2%|▏         | 10/545 [00:02<02:11,  4.05it/s]                                                  2%|▏         | 10/545 [00:02<02:11,  4.05it/s]  2%|▏         | 11/545 [00:02<02:10,  4.10it/s]  2%|▏         | 12/545 [00:03<02:09,  4.12it/s]  2%|▏         | 13/545 [00:03<02:08,  4.13it/s]  3%|▎         | 14/545 [00:03<02:07,  4.15it/s]  3%|▎         | 15/545 [00:03<02:09,  4.10it/s]  3%|▎         | 16/545 [00:04<02:09,  4.07it/s]  3%|▎         | 17/545 [00:04<02:10,  4.06it/s]  3%|▎         | 18/545 [00:04<02:09,  4.07it/s]  3%|▎         | 19/545 [00:04<02:08,  4.10it/s]  4%|▎         | 20/545 [00:05<02:06,  4.14it/s]                                                  4%|▎         | 20/545 [00:05<02:06,  4.14it/s]  4%|▍         | 21/545 [00:05<02:06,  4.15it/s]  4%|▍         | 22/545 [00:05<02:07,  4.10it/s]  4%|▍         | 23/545 [00:05<02:07,  4.10it/s]  4%|▍         | 24/545 [00:06<02:07,  4.08it/s]  5%|▍         | 25/545 [00:06<02:07,  4.08it/s]  5%|▍         | 26/545 [00:06<02:07,  4.06it/s]  5%|▍         | 27/545 [00:06<02:06,  4.09it/s]  5%|▌         | 28/545 [00:07<02:06,  4.07it/s]  5%|▌         | 29/545 [00:07<02:07,  4.05it/s]  6%|▌         | 30/545 [00:07<02:06,  4.07it/s]                                                  6%|▌         | 30/545 [00:07<02:06,  4.07it/s]  6%|▌         | 31/545 [00:07<02:06,  4.07it/s]  6%|▌         | 32/545 [00:08<02:06,  4.05it/s]  6%|▌         | 33/545 [00:08<02:06,  4.04it/s]  6%|▌         | 34/545 [00:08<02:06,  4.04it/s]  6%|▋         | 35/545 [00:08<02:05,  4.07it/s]  7%|▋         | 36/545 [00:09<02:04,  4.08it/s]  7%|▋         | 37/545 [00:09<02:05,  4.04it/s]  7%|▋         | 38/545 [00:09<02:05,  4.03it/s]  7%|▋         | 39/545 [00:09<02:03,  4.10it/s]  7%|▋         | 40/545 [00:09<02:03,  4.10it/s]                                                  7%|▋         | 40/545 [00:09<02:03,  4.10it/s]  8%|▊         | 41/545 [00:10<02:03,  4.09it/s]  8%|▊         | 42/545 [00:10<02:03,  4.07it/s]  8%|▊         | 43/545 [00:10<02:04,  4.04it/s]  8%|▊         | 44/545 [00:10<02:03,  4.04it/s]  8%|▊         | 45/545 [00:11<02:03,  4.05it/s]  8%|▊         | 46/545 [00:11<02:03,  4.04it/s]  9%|▊         | 47/545 [00:11<02:03,  4.04it/s]  9%|▉         | 48/545 [00:11<02:02,  4.05it/s]  9%|▉         | 49/545 [00:12<02:02,  4.06it/s]  9%|▉         | 50/545 [00:12<02:01,  4.06it/s]                                                  9%|▉         | 50/545 [00:12<02:01,  4.06it/s]  9%|▉         | 51/545 [00:12<02:01,  4.05it/s] 10%|▉         | 52/545 [00:12<02:01,  4.06it/s] 10%|▉         | 53/545 [00:13<02:00,  4.07it/s] 10%|▉         | 54/545 [00:13<02:00,  4.09it/s] 10%|█         | 55/545 [00:13<01:59,  4.10it/s] 10%|█         | 56/545 [00:13<01:59,  4.10it/s]

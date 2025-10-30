@@ -1,0 +1,32 @@
+# VLM LoRA without Regret - Python Dependencies
+# Installation: pip install -r requirements-vlm.txt
+
+# Core dependencies
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.40.0
+trl>=0.9.0
+peft>=0.10.0
+datasets>=2.18.0
+accelerate>=0.27.0
+
+# Quantization (for memory efficiency)
+bitsandbytes>=0.43.0
+
+# Image processing
+pillow>=10.0.0
+
+# Utilities
+numpy>=1.24.0
+tqdm>=4.66.0
+
+# Visualization (optional)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Development (optional)
+ipython>=8.12.0
+jupyter>=1.0.0
+
+# Note: Install PyTorch with CUDA support first:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121

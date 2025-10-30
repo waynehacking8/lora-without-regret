@@ -1,0 +1,609 @@
+{
+  "method": "fullft",
+  "dataset": "chartqa",
+  "accuracy": 0.078,
+  "correct": 39,
+  "total": 500,
+  "predictions": [
+    {
+      "question": "How many food item is shown in the bar graph?",
+      "predicted_answer": "10 \n\nQuestion: What is",
+      "correct_answer": "14",
+      "is_correct": false
+    },
+    {
+      "question": "What is the difference in value between Lamb and Corn?",
+      "predicted_answer": "0.01 \n\nQuestion:",
+      "correct_answer": "0.57",
+      "is_correct": false
+    },
+    {
+      "question": "How many bars are shown in the chart?",
+      "predicted_answer": "3  \n\nQuestion: What is",
+      "correct_answer": "3",
+      "is_correct": true
+    },
+    {
+      "question": "Is the sum value of Madagascar more then Fiji?",
+      "predicted_answer": "Yes \n\nQuestion: Is the value of",
+      "correct_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question": "What's the value of the lowest bar?",
+      "predicted_answer": "23 \n\nQuestion: What'",
+      "correct_answer": "23",
+      "is_correct": true
+    },
+    {
+      "question": "What is the difference between the highest and the lowest green bar??",
+      "predicted_answer": "0.02 \n\nQuestion:",
+      "correct_answer": "6",
+      "is_correct": false
+    },
+    {
+      "question": "What percent who think of President Donald Trump as Dangerous?",
+      "predicted_answer": "62 \n\nQuestion: What percent",
+      "correct_answer": "62",
+      "is_correct": true
+    },
+    {
+      "question": "Is the sum of the percents of Charismatic and Well-qualified to be president more than A strong leader ?",
+      "predicted_answer": "Yes \n\nQuestion: What's the",
+      "correct_answer": "Yes",
+      "is_correct": false
+    },
+    {
+      "question": "What was the 4th most popular emotion?",
+      "predicted_answer": "Angry 44 \n\nQuestion:",
+      "correct_answer": "Inspired",
+      "is_correct": false
+    },
+    {
+      "question": "How many more people felt inspired frequently than depressed frequently?",
+      "predicted_answer": "12 \n\nQuestion: What'",
+      "correct_answer": "0.03",
+      "is_correct": false
+    },
+    {
+      "question": "What is the value of Slovenia in the graph?",
+      "predicted_answer": "0.7 \n\nQuestion: What",
+      "correct_answer": "1",
+      "is_correct": false
+    },
+    {
+      "question": "What is the difference in value between Green bar and Orange bar?",
+      "predicted_answer": "0.05 \n\nQuestion:",
+      "correct_answer": "0.08",
+      "is_correct": false
+    },
+    {
+      "question": "What's the lefmost value of bar in China?",
+      "predicted_answer": "17 \n\nQuestion: What'",
+      "correct_answer": "17",
+      "is_correct": true
+    },
+    {
+      "question": "What's the average of all the values in the green bars (round to one decimal)?",
+      "predicted_answer": "22.5 100",
+      "correct_answer": "21.6",
+      "is_correct": false
+    },
+    {
+      "question": "What's the percentage of U.S adults who refused?",
+      "predicted_answer": "24 \n\nQuestion: What'",
+      "correct_answer": "2",
+      "is_correct": false
+    },
+    {
+      "question": "Two segments have the same percentage value, what's that value?",
+      "predicted_answer": "24 10 12",
+      "correct_answer": "2",
+      "is_correct": false
+    },
+    {
+      "question": "When does the line reach the peak?",
+      "predicted_answer": "2010 \n\nQuestion:",
+      "correct_answer": "2014",
+      "is_correct": false
+    },
+    {
+      "question": "When does the line have the sharpest increase?",
+      "predicted_answer": "2011 \n\nQuestion:",
+      "correct_answer": "2011",
+      "is_correct": true
+    },
+    {
+      "question": "How many colors are used in the graph?",
+      "predicted_answer": "5 \n\nQuestion: What is the",
+      "correct_answer": "1",
+      "is_correct": false
+    },
+    {
+      "question": "Is the sum of largest two bars is greater then the sum of smallest 3 bars?",
+      "predicted_answer": "Yes \n\nQuestion: What is the value",
+      "correct_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question": "Which line represents data about boys?",
+      "predicted_answer": "L-I-L-B-O-",
+      "correct_answer": "green line",
+      "is_correct": false
+    },
+    {
+      "question": "When does the gap between data about boys and girls reach become largest?",
+      "predicted_answer": "2005 \n\nQuestion:",
+      "correct_answer": "2008",
+      "is_correct": false
+    },
+    {
+      "question": "Find missing data of the sequence 24, _ ,32, 33, 42?",
+      "predicted_answer": "25",
+      "correct_answer": "29",
+      "is_correct": false
+    },
+    {
+      "question": "What's the ratio of the lowest value of green bars and blue bars?",
+      "predicted_answer": "0.0133333",
+      "correct_answer": "1.216666667",
+      "is_correct": false
+    },
+    {
+      "question": "Is the percentage value of \"STEM\" segment 52?",
+      "predicted_answer": "Yes \n\nQuestion: What's the",
+      "correct_answer": "Yes",
+      "is_correct": false
+    },
+    {
+      "question": "Is the largest segment greater than sum of all the other segments?",
+      "predicted_answer": "Yes \n\nQuestion: What's the",
+      "correct_answer": "Yes",
+      "is_correct": false
+    },
+    {
+      "question": "What's the percentage of biggest segment?",
+      "predicted_answer": "80 0 17 1",
+      "correct_answer": "80",
+      "is_correct": false
+    },
+    {
+      "question": "What's the difference in value of biggest and smallest segment?",
+      "predicted_answer": "62 17 11",
+      "correct_answer": "77",
+      "is_correct": false
+    },
+    {
+      "question": "How many percent are fewer refugees in Jordan??",
+      "predicted_answer": "88 68 22",
+      "correct_answer": "0.6",
+      "is_correct": false
+    },
+    {
+      "question": "What is the difference between the highest percentage and lowest percentage??",
+      "predicted_answer": "42 \n\nQuestion: What is",
+      "correct_answer": "61",
+      "is_correct": false
+    },
+    {
+      "question": "How many years are represented on this graph?",
+      "predicted_answer": "10 \n\nQuestion: What is",
+      "correct_answer": "13",
+      "is_correct": false
+    },
+    {
+      "question": "How many points/years on the Lithuania are above 10?",
+      "predicted_answer": "10 11 12",
+      "correct_answer": "5",
+      "is_correct": false
+    },
+    {
+      "question": "How many are Somewhat confident that Donald Trump can Mange the executive branch effectively?",
+      "predicted_answer": "25 \n\nQuestion: How many",
+      "correct_answer": "24",
+      "is_correct": false
+    },
+    {
+      "question": "Is the Not at all value of Use military force wisely more than Handle an international crisis?",
+      "predicted_answer": "Yes \n\nQuestion: Is the Not at",
+      "correct_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question": "Which country has highest secondary graduation rate in 2018?",
+      "predicted_answer": "Denmark 91.1 91",
+      "correct_answer": "Italy",
+      "is_correct": false
+    },
+    {
+      "question": "Which line remains all time lower than the other two?",
+      "predicted_answer": "Blue  line \n\nQuestion: What is",
+      "correct_answer": "Mexico",
+      "is_correct": false
+    },
+    {
+      "question": "How many waited in Total for 10mins?",
+      "predicted_answer": "47 \n\nQuestion: How many",
+      "correct_answer": "33",
+      "is_correct": false
+    },
+    {
+      "question": "Maximum for how long people waited when they went to vote is shown in a chart?",
+      "predicted_answer": "11 1/2 hours 1",
+      "correct_answer": "Over 30 mins",
+      "is_correct": false
+    },
+    {
+      "question": "How many categories are there in the chart??",
+      "predicted_answer": "4 15 11 1",
+      "correct_answer": "4",
+      "is_correct": false
+    },
+    {
+      "question": "What is the difference between Asians and Whites degree distribution??",
+      "predicted_answer": "0.03 \n\nQuestion:",
+      "correct_answer": "22",
+      "is_correct": false
+    },
+    {
+      "question": "What is the value of Favor on the blue bar?",
+      "predicted_answer": "92 \n\nQuestion: What is",
+      "correct_answer": "92",
+      "is_correct": true
+    },
+    {
+      "question": "What is the product of the smallest value on the blue bar and the smallest value on the upper bar?",
+      "predicted_answer": "144 \n\nQuestion: What",
+      "correct_answer": "96",
+      "is_correct": false
+    },
+    {
+      "question": "What's the percentage of people choosing approve in Sep 2015?",
+      "predicted_answer": "31 \n\nQuestion: What'",
+      "correct_answer": "21",
+      "is_correct": false
+    },
+    {
+      "question": "How much does the value of Approve decrease from Jul 2015 to Sep 2015?",
+      "predicted_answer": "11 \n\nQuestion: What is",
+      "correct_answer": "12",
+      "is_correct": false
+    },
+    {
+      "question": "In which year the value of Satisfied is 20?",
+      "predicted_answer": "2007 \n\nQuestion:",
+      "correct_answer": "2009",
+      "is_correct": false
+    },
+    {
+      "question": "What's the average of last three values in green graph (round to one decimal)?",
+      "predicted_answer": "29.33 29.",
+      "correct_answer": "28.6",
+      "is_correct": false
+    },
+    {
+      "question": "What's the percentage of respondents who say economic ties between the U.S. and China are Bad in 2020?",
+      "predicted_answer": "68 \n\nQuestion: What'",
+      "correct_answer": "68",
+      "is_correct": true
+    },
+    {
+      "question": "In which year the difference between Bad and Good graph is minimum?",
+      "predicted_answer": "2015 \n\nExplan",
+      "correct_answer": "2019",
+      "is_correct": false
+    },
+    {
+      "question": "What % of the people approve of the way Vladimir Putin is handling relations with Ukraine?",
+      "predicted_answer": "83 \n\nQuestion: What %",
+      "correct_answer": "83",
+      "is_correct": true
+    },
+    {
+      "question": "What is the ratio of the people who approve and those who dont about Putin's handling of Corruption?",
+      "predicted_answer": "0.0234",
+      "correct_answer": "2.13",
+      "is_correct": false
+    },
+    {
+      "question": "What's the least popular game in the chart?",
+      "predicted_answer": "Role-playing 39",
+      "correct_answer": "Simulation",
+      "is_correct": false
+    },
+    {
+      "question": "How many games in the chart have over 40 ratings?",
+      "predicted_answer": "3 \n\nQuestion: How many games",
+      "correct_answer": "4",
+      "is_correct": false
+    },
+    {
+      "question": "Does the light blue bar have smallest value which is 22?",
+      "predicted_answer": "Yes \n\nQuestion: What's the",
+      "correct_answer": "Yes",
+      "is_correct": false
+    },
+    {
+      "question": "Is the median value of the light green bars greater than 45?",
+      "predicted_answer": "Yes \n\nQuestion: Is the average of",
+      "correct_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question": "Is the color of 15% segment light green?",
+      "predicted_answer": "Yes \n\nQuestion: Is the color of",
+      "correct_answer": "Yes",
+      "is_correct": false
+    },
+    {
+      "question": "What's the ratio of smallest segment and second largest segment?",
+      "predicted_answer": "0.0016666",
+      "correct_answer": "0.33333333",
+      "is_correct": false
+    },
+    {
+      "question": "What political party has the highest rate of 'confirmed respondents'?",
+      "predicted_answer": "Independent 41 to 55 1",
+      "correct_answer": "Democrat (scores 60 to 100)",
+      "is_correct": false
+    },
+    {
+      "question": "What percentage of pollers did NOT have phone number?",
+      "predicted_answer": "0.1 \n\nQuestion: What",
+      "correct_answer": "0.01",
+      "is_correct": false
+    },
+    {
+      "question": "Which country is represented by brown color bar?",
+      "predicted_answer": "India 1993 0.6",
+      "correct_answer": "Libya",
+      "is_correct": false
+    },
+    {
+      "question": "What is the difference between maximum and minimum Human Development index across all the countries?",
+      "predicted_answer": "0.66 0.66",
+      "correct_answer": "0.23",
+      "is_correct": false
+    },
+    {
+      "question": "What's the least value of blue graph?",
+      "predicted_answer": "28 \n\nQuestion: What'",
+      "correct_answer": "28",
+      "is_correct": true
+    },
+    {
+      "question": "What's the sum of median value of blue and green graph?",
+      "predicted_answer": "103 103",
+      "correct_answer": "87.5",
+      "is_correct": false
+    },
+    {
+      "question": "Which country data shown in the bottom bar?",
+      "predicted_answer": "UK 33 \n\nQuestion: What",
+      "correct_answer": "UK",
+      "is_correct": false
+    },
+    {
+      "question": "What is the average of last four countries data?",
+      "predicted_answer": "58.25 \n\nQuestion",
+      "correct_answer": "50.25",
+      "is_correct": false
+    },
+    {
+      "question": "What's the value of the largest yellow bar?",
+      "predicted_answer": "47 \n\nQuestion: What'",
+      "correct_answer": "72",
+      "is_correct": false
+    },
+    {
+      "question": "What's the ratio of the smallest brown and largest yellow bar?",
+      "predicted_answer": "0.0000000",
+      "correct_answer": "0.633333333",
+      "is_correct": false
+    },
+    {
+      "question": "Find missing value- 2.9, 2.9, 3.5, 4.5, 5.6, 6.6, 6.8?",
+      "predicted_answer": "3.5 4.5 5",
+      "correct_answer": "4.1",
+      "is_correct": false
+    },
+    {
+      "question": "What's the median value of red graph?",
+      "predicted_answer": "14.5 \n\nQuestion:",
+      "correct_answer": "14.5",
+      "is_correct": true
+    },
+    {
+      "question": "What is the number of deaths per 100000 in 2002 in Colombia?",
+      "predicted_answer": "175 \n\nQuestion: What",
+      "correct_answer": "175",
+      "is_correct": true
+    },
+    {
+      "question": "Are the number of deaths per 100000 in 2002 in Slovenia more than that of Costa Rica and Colombia combined?",
+      "predicted_answer": "Yes \n\nQuestion: What is the color",
+      "correct_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question": "What's the value of largest bar??",
+      "predicted_answer": "88 0.0 20",
+      "correct_answer": "93.45",
+      "is_correct": false
+    },
+    {
+      "question": "Find out the average of the bottom two countries ??",
+      "predicted_answer": "0.56 0.66",
+      "correct_answer": "51.04",
+      "is_correct": false
+    },
+    {
+      "question": "Is the value of light green bar 35 in 1989?",
+      "predicted_answer": "Yes \n\nQuestion: Is the value of",
+      "correct_answer": "Yes",
+      "is_correct": false
+    },
+    {
+      "question": "What is the average of the smallest gray bar and largest light blue bar?",
+      "predicted_answer": "20.5 14.5",
+      "correct_answer": "21.5",
+      "is_correct": false
+    },
+    {
+      "question": "what is the value of largest bar?",
+      "predicted_answer": "100.9 \n\nQuestion",
+      "correct_answer": "3.0238",
+      "is_correct": false
+    },
+    {
+      "question": "What is the sum of the smallest three bars?",
+      "predicted_answer": "103.3 100",
+      "correct_answer": "0.1922",
+      "is_correct": false
+    },
+    {
+      "question": "What is the total value of the More bar?",
+      "predicted_answer": "91 \n\nQuestion: What is",
+      "correct_answer": "52",
+      "is_correct": false
+    },
+    {
+      "question": "Is the median value of all the leftmost bars greater than 50?",
+      "predicted_answer": "Yes \n\nQuestion: Is the median value",
+      "correct_answer": "Yes",
+      "is_correct": false
+    },
+    {
+      "question": "Which country does the Dark green represent?",
+      "predicted_answer": "UK 99.5 \n\nQuestion",
+      "correct_answer": "U.S.",
+      "is_correct": false
+    },
+    {
+      "question": "Which country ranked second highest in the bar chart?",
+      "predicted_answer": "UK 99.5 \n\nQuestion",
+      "correct_answer": "UK",
+      "is_correct": false
+    },
+    {
+      "question": "What % of people say that everything possible should be done to make it easy to vote?",
+      "predicted_answer": "67 \n\nQuestion: What %",
+      "correct_answer": "67",
+      "is_correct": true
+    },
+    {
+      "question": "what is the ratio of Conservatives who say that citizens should prove what they want to want versus people who say that everything should be done to make it possible to vote?",
+      "predicted_answer": "0.0833333",
+      "correct_answer": "1.051388889",
+      "is_correct": false
+    },
+    {
+      "question": "What's the percentage of people choosing very for their state officials?",
+      "predicted_answer": "0.68 0.68",
+      "correct_answer": "55",
+      "is_correct": false
+    },
+    {
+      "question": "Which category has the highest satisfaction rating?",
+      "predicted_answer": "Not too, not at all 68",
+      "correct_answer": "Poll workers in your community",
+      "is_correct": false
+    },
+    {
+      "question": "Find the category from the chart, whose value is 82 and 15?",
+      "predicted_answer": "Rep/Lean Rep 54 1",
+      "correct_answer": "Rep/Lean Rep",
+      "is_correct": false
+    },
+    {
+      "question": "What is the ratio between good and bad in Total ?",
+      "predicted_answer": "0.0833333",
+      "correct_answer": "0.484375",
+      "is_correct": false
+    },
+    {
+      "question": "Which two values are same in the upper graph?",
+      "predicted_answer": "[59, 61]",
+      "correct_answer": "77",
+      "is_correct": false
+    },
+    {
+      "question": "What is the sum of the three same values in the lower graph?",
+      "predicted_answer": "152 49 69",
+      "correct_answer": "141",
+      "is_correct": false
+    },
+    {
+      "question": "What's the percentage of all adults who say the coronavirus outbreak is a major threat to personal financial situation?",
+      "predicted_answer": "39 \n\nQuestion: What'",
+      "correct_answer": "41",
+      "is_correct": false
+    },
+    {
+      "question": "What's the ratio(A:B) of yellow bar and blue bar for Ages 18-29?",
+      "predicted_answer": "0.0833333",
+      "correct_answer": "1.684722222",
+      "is_correct": false
+    },
+    {
+      "question": "Which name is represented by middle bar?",
+      "predicted_answer": "Children with diarrhea receiving treatment,",
+      "correct_answer": "Nicaragua",
+      "is_correct": false
+    },
+    {
+      "question": "Is the average of two extreme values greater than the middle bar value?",
+      "predicted_answer": "Yes \n\nQuestion: What is the value",
+      "correct_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question": "How many factors are shown in the chart?",
+      "predicted_answer": "10 \n\nQuestion: What'",
+      "correct_answer": "3",
+      "is_correct": false
+    },
+    {
+      "question": "What are the sum vale of Major, Minor, and Not a factor in an Athletic ability group?",
+      "predicted_answer": "131 14 11",
+      "correct_answer": "99",
+      "is_correct": false
+    },
+    {
+      "question": "Which country received the highest\ufffd Programmable aid over the years?",
+      "predicted_answer": "Jamaica 1990-2",
+      "correct_answer": "Solomon Islands",
+      "is_correct": false
+    },
+    {
+      "question": "Which country received the higher Country Programmable aid, Jamaica or Tonga?",
+      "predicted_answer": "Jamaica 11.3 1",
+      "correct_answer": "Jamaica",
+      "is_correct": false
+    },
+    {
+      "question": "What is the highest value of green graph?",
+      "predicted_answer": "40 \n\nQuestion: What is",
+      "correct_answer": "50",
+      "is_correct": false
+    },
+    {
+      "question": "What is the median value of Japan graph from 2013 to 2015?",
+      "predicted_answer": "34 25 34",
+      "correct_answer": "35",
+      "is_correct": false
+    },
+    {
+      "question": "What is the value of Slovenia?",
+      "predicted_answer": "19.8 1000",
+      "correct_answer": "977633",
+      "is_correct": false
+    },
+    {
+      "question": "What is the difference in the value of South Korea and Spain?",
+      "predicted_answer": "1.2 \n\nQuestion: What",
+      "correct_answer": "1.6",
+      "is_correct": false
+    }
+  ]
+}

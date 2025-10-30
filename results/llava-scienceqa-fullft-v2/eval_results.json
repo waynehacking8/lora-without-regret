@@ -1,0 +1,1214 @@
+{
+  "method": "fullft",
+  "model_path": "./results/llava-scienceqa-fullft-v2",
+  "dataset": "derek-thomas/ScienceQA",
+  "eval_type": "accuracy",
+  "accuracy": 0.865,
+  "correct": 205,
+  "total": 237,
+  "predictions": [
+    {
+      "question": "Which of the following could Gordon's test show?",
+      "choices": [
+        "if the spacecraft was damaged when using a parachute with a 1 m vent going 200 km per hour",
+        "how steady a parachute with a 1 m vent was at 200 km per hour",
+        "whether a parachute with a 1 m vent would swing too much at 400 km per hour"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation: Gordon'",
+      "is_correct": true
+    },
+    {
+      "question": "What is the name of the colony shown?",
+      "choices": [
+        "Maryland",
+        "New Hampshire",
+        "Rhode Island",
+        "Vermont"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Which of these organisms contains matter that was once part of the lichen?",
+      "choices": [
+        "bilberry",
+        "mushroom"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "What is the expected ratio of offspring with a woolly fleece to offspring with a hairy fleece? Choose the most likely ratio.",
+      "choices": [
+        "0:4",
+        "4:0",
+        "2:2",
+        "1:3",
+        "3:1"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "generated_text": "C 2:2 \n\nExplan",
+      "is_correct": false
+    },
+    {
+      "question": "Which property do these three objects have in common?",
+      "choices": [
+        "shiny",
+        "slippery",
+        "opaque"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation:\nAll",
+      "is_correct": false
+    },
+    {
+      "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+      "choices": [
+        "The magnitude of the magnetic force is the same in both pairs.",
+        "The magnitude of the magnetic force is smaller in Pair 1.",
+        "The magnitude of the magnetic force is smaller in Pair 2."
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "What is the capital of Wyoming?",
+      "choices": [
+        "Phoenix",
+        "Baton Rouge",
+        "Honolulu",
+        "Cheyenne"
+      ],
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "generated_text": "D \n\nExplanation:\nW",
+      "is_correct": true
+    },
+    {
+      "question": "Is the following statement about our solar system true or false?\nThe largest planet is made mainly of ice.",
+      "choices": [
+        "true",
+        "false"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Which of the following organisms is the primary consumer in this food web?",
+      "choices": [
+        "copepod",
+        "black crappie",
+        "bacteria"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nIn",
+      "is_correct": false
+    },
+    {
+      "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+      "choices": [
+        "The magnetic force is stronger in Pair 2.",
+        "The magnetic force is stronger in Pair 1.",
+        "The strength of the magnetic force is the same in both pairs."
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nExplanation:",
+      "is_correct": false
+    },
+    {
+      "question": "Which better describes the Daintree rain forest ecosystem?",
+      "choices": [
+        "It has year-round rain. It also has soil that is poor in nutrients.",
+        "It has cold winters. It also has many different types of organisms."
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "What is the capital of Delaware?",
+      "choices": [
+        "Montpelier",
+        "Trenton",
+        "Dover",
+        "Georgetown"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Which of these states is farthest north?",
+      "choices": [
+        "Maine",
+        "South Carolina",
+        "Kansas",
+        "Delaware"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation:\nK",
+      "is_correct": true
+    },
+    {
+      "question": "What can Greta and Allie trade to each get what they want?",
+      "choices": [
+        "Greta can trade her tomatoes for Allie's sandwich.",
+        "Allie can trade her broccoli for Greta's oranges.",
+        "Allie can trade her almonds for Greta's tomatoes.",
+        "Greta can trade her tomatoes for Allie's broccoli."
+      ],
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "generated_text": "D  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "What is the capital of Colorado?",
+      "choices": [
+        "Boulder",
+        "Phoenix",
+        "Colorado Springs",
+        "Denver"
+      ],
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "generated_text": "D \n\nExplanation: Colorado'",
+      "is_correct": true
+    },
+    {
+      "question": "Which continent is highlighted?",
+      "choices": [
+        "Africa",
+        "North America",
+        "South America",
+        "Asia"
+      ],
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "generated_text": "D \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Identify the question that Chase's experiment can best answer.",
+      "choices": [
+        "Do cardinals eat more seeds per visit from feeders containing sunflower seeds compared to feeders containing flax seeds?",
+        "Do cardinals visit feeders containing sunflower seeds more often than feeders containing flax seeds?"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation: Chase",
+      "is_correct": true
+    },
+    {
+      "question": "Which material is this path made of?",
+      "choices": [
+        "plastic",
+        "brick"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "Select the bird below.",
+      "choices": [
+        "cane toad",
+        "ostrich"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nQuestion: Which bird has a",
+      "is_correct": true
+    },
+    {
+      "question": "Which property do these three objects have in common?",
+      "choices": [
+        "blue",
+        "hard",
+        "sticky"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation:\nAll",
+      "is_correct": true
+    },
+    {
+      "question": "Which of the following was a dependent variable in this experiment?",
+      "choices": [
+        "the temperature of the heating pad",
+        "the number of days until a seed germinated"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \uff0f A \n\nEx",
+      "is_correct": true
+    },
+    {
+      "question": "What is the capital of Mississippi?",
+      "choices": [
+        "Detroit",
+        "Jackson",
+        "Biloxi",
+        "Topeka"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nMiss",
+      "is_correct": true
+    },
+    {
+      "question": "Which property matches this object?",
+      "choices": [
+        "stretchy",
+        "blue"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation:\nM",
+      "is_correct": true
+    },
+    {
+      "question": "Is Rafflesia arnoldii made up of many cells?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "What is the expected ratio of offspring with smooth fruit to offspring with fuzzy fruit? Choose the most likely ratio.",
+      "choices": [
+        "3:1",
+        "2:2",
+        "1:3",
+        "4:0",
+        "0:4"
+      ],
+      "correct_answer": "D",
+      "predicted_answer": "B",
+      "generated_text": "B 2:2 \n\nExplan",
+      "is_correct": false
+    },
+    {
+      "question": "Which of the following could Cooper's test show?",
+      "choices": [
+        "if at least 20% of the park would be shaded by trees in each design",
+        "which design would have the least traffic noise in the concert area",
+        "which design would have the greatest distance between the concert area and the road"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation: Cooper'",
+      "is_correct": true
+    },
+    {
+      "question": "Will these magnets attract or repel each other?",
+      "choices": [
+        "repel",
+        "attract"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nThe",
+      "is_correct": false
+    },
+    {
+      "question": "What is the capital of Connecticut?",
+      "choices": [
+        "Hartford",
+        "Annapolis",
+        "New Haven",
+        "Dover"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation:\nConnect",
+      "is_correct": true
+    },
+    {
+      "question": "Which ocean is highlighted?",
+      "choices": [
+        "the Indian Ocean",
+        "the Atlantic Ocean",
+        "the Pacific Ocean",
+        "the Southern Ocean"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Which statement describes the Yasuni National Park ecosystem?",
+      "choices": [
+        "It has mostly small plants.",
+        "It has many different types of organisms.",
+        "It has soil that is rich in nutrients."
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nY",
+      "is_correct": true
+    },
+    {
+      "question": "Which property do these three objects have in common?",
+      "choices": [
+        "fragile",
+        "bouncy",
+        "yellow"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "Look at the models of molecules below. Select the elementary substance.",
+      "choices": [
+        "carbon tetrachloride",
+        "acetaldehyde",
+        "bromine"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nAn",
+      "is_correct": true
+    },
+    {
+      "question": "Select the organism in the same species as the pink-backed pelican.",
+      "choices": [
+        "Balearica pavonina",
+        "Tyto alba",
+        "Pelecanus rufescens"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "What is the capital of North Dakota?",
+      "choices": [
+        "Des Moines",
+        "Bismarck",
+        "Madison",
+        "Fargo"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation: Bism",
+      "is_correct": true
+    },
+    {
+      "question": "Identify the question that Jeremiah's experiment can best answer.",
+      "choices": [
+        "Do cardinals visit feeders containing sunflower seeds more often than feeders containing flax seeds?",
+        "Do cardinals eat more seeds per visit from feeders containing sunflower seeds compared to feeders containing flax seeds?"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation: Jerem",
+      "is_correct": true
+    },
+    {
+      "question": "What is the capital of Massachusetts?",
+      "choices": [
+        "Cambridge",
+        "Plymouth",
+        "Boston",
+        "Dover"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nM",
+      "is_correct": true
+    },
+    {
+      "question": "Which animal is also adapted to be camouflaged in the snow?",
+      "choices": [
+        "short-tailed weasel",
+        "common hawk-cuckoo"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Select the organism in the same genus as the Goliath heron.",
+      "choices": [
+        "Falco sparverius",
+        "Ardea herodias",
+        "Tigrisoma mexicanum"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Which country is highlighted?",
+      "choices": [
+        "Barbados",
+        "the Dominican Republic",
+        "Saint Lucia",
+        "Saint Vincent and the Grenadines"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nExplanation:",
+      "is_correct": false
+    },
+    {
+      "question": "Will these magnets attract or repel each other?",
+      "choices": [
+        "repel",
+        "attract"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Can Fromia monilis cells make their own food?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nFrom",
+      "is_correct": true
+    },
+    {
+      "question": "Does this passage describe the weather or the climate?",
+      "choices": [
+        "weather",
+        "climate"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nQuestion: Which term matches the",
+      "is_correct": false
+    },
+    {
+      "question": "Which country is highlighted?",
+      "choices": [
+        "Vanuatu",
+        "Tonga",
+        "the Marshall Islands",
+        "Nauru"
+      ],
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "generated_text": "D \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Which rhetorical appeal is primarily used in this ad?",
+      "choices": [
+        "logos (reason)",
+        "pathos (emotion)",
+        "ethos (character)"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Which animal is also adapted to be camouflaged among dead leaves?",
+      "choices": [
+        "strawberry poison frog",
+        "Surinam horned frog"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "Identify the question that Helen's experiment can best answer.",
+      "choices": [
+        "Does fabric turn darker when soaked in a mixture of black dye and water for 15 minutes compared to 30 minutes?",
+        "Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation: Helen'",
+      "is_correct": true
+    },
+    {
+      "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+      "choices": [
+        "The magnetic force is stronger in Pair 1.",
+        "The magnetic force is stronger in Pair 2.",
+        "The strength of the magnetic force is the same in both pairs."
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nExplanation:",
+      "is_correct": false
+    },
+    {
+      "question": "What is the capital of Washington?",
+      "choices": [
+        "Olympia",
+        "Burlington",
+        "Seattle",
+        "Spokane"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "Which solution has a higher concentration of green particles?",
+      "choices": [
+        "Solution B",
+        "neither; their concentrations are the same",
+        "Solution A"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nSince",
+      "is_correct": false
+    },
+    {
+      "question": "Which is this organism's scientific name?",
+      "choices": [
+        "comet moth",
+        "Argema mittrei"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B   \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "Which property do these three objects have in common?",
+      "choices": [
+        "smooth",
+        "stretchy",
+        "fuzzy"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation:\nAll",
+      "is_correct": true
+    },
+    {
+      "question": "Which continent is highlighted?",
+      "choices": [
+        "North America",
+        "Africa",
+        "Asia"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation: C",
+      "is_correct": true
+    },
+    {
+      "question": "Which of these states is farthest north?",
+      "choices": [
+        "Florida",
+        "Illinois",
+        "Ohio",
+        "New Hampshire"
+      ],
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "generated_text": "D \n\nExplanation:\nNew",
+      "is_correct": true
+    },
+    {
+      "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+      "choices": [
+        "The magnitude of the magnetic force is smaller in Pair 2.",
+        "The magnitude of the magnetic force is smaller in Pair 1.",
+        "The magnitude of the magnetic force is the same in both pairs."
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nExplanation:",
+      "is_correct": false
+    },
+    {
+      "question": "Which animal's legs are also adapted for wading?",
+      "choices": [
+        "kookaburra",
+        "Eurasian spoonbill"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "Which rock is more likely to form from sediment deposited in a desert?",
+      "choices": [
+        "Sandstone forms from layers of sand.",
+        "Shale forms from layers of mud."
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "As Rusty pulls on the toy, what is the direction of the opposing force?",
+      "choices": [
+        "away from Coco",
+        "toward Coco"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \u200b\n\nExplanation: When",
+      "is_correct": true
+    },
+    {
+      "question": "What is the capital of Hawaii?",
+      "choices": [
+        "Portland",
+        "Bismarck",
+        "Honolulu",
+        "Juneau"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "What is the capital of Washington?",
+      "choices": [
+        "Santa Fe",
+        "Lansing",
+        "Olympia",
+        "Seattle"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "What is the probability that an American curl cat produced by this cross will be homozygous dominant for the ear type gene?",
+      "choices": [
+        "0/4",
+        "2/4",
+        "4/4",
+        "3/4",
+        "1/4"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nExplanation:",
+      "is_correct": false
+    },
+    {
+      "question": "What is the capital of Oklahoma?",
+      "choices": [
+        "Boise",
+        "Oklahoma City",
+        "Little Rock",
+        "Birmingham"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nOk",
+      "is_correct": true
+    },
+    {
+      "question": "Identify the question that Jaden and Ron's experiment can best answer.",
+      "choices": [
+        "Do ping pong balls travel farther when launched from a 30\u00b0 angle compared to a 45\u00b0 angle?",
+        "Do ping pong balls stop rolling along the ground sooner after being launched from a 30\u00b0 angle or a 45\u00b0 angle?"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation:\nJ",
+      "is_correct": true
+    },
+    {
+      "question": "Complete the statement.\nHydrogen is ().",
+      "choices": [
+        "an elementary substance",
+        "a compound"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "What is the name of the colony shown?",
+      "choices": [
+        "New Jersey",
+        "South Carolina",
+        "West Virginia",
+        "Rhode Island"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "What is the capital of Kansas?",
+      "choices": [
+        "Des Moines",
+        "Wichita",
+        "Topeka",
+        "Lincoln"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nK",
+      "is_correct": true
+    },
+    {
+      "question": "Which continent is highlighted?",
+      "choices": [
+        "North America",
+        "Africa",
+        "Asia",
+        "South America"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Identify the question that Linda and Bob's experiment can best answer.",
+      "choices": [
+        "Does Linda's snowboard slide down a hill in less time when it has a thin layer of wax or a thick layer of wax?",
+        "Does Linda's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nBob",
+      "is_correct": true
+    },
+    {
+      "question": "What is the capital of Nevada?",
+      "choices": [
+        "Sacramento",
+        "Las Vegas",
+        "Carson City",
+        "Jefferson City"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nN",
+      "is_correct": true
+    },
+    {
+      "question": "What is the name of the colony shown?",
+      "choices": [
+        "Maine",
+        "Maryland",
+        "New Hampshire",
+        "North Carolina"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nM",
+      "is_correct": true
+    },
+    {
+      "question": "What is the capital of New Mexico?",
+      "choices": [
+        "Albuquerque",
+        "Santa Fe",
+        "Honolulu",
+        "Boston"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nNew",
+      "is_correct": true
+    },
+    {
+      "question": "Which continent is highlighted?",
+      "choices": [
+        "Europe",
+        "Asia",
+        "South America",
+        "Australia"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Will these magnets attract or repel each other?",
+      "choices": [
+        "repel",
+        "attract"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nThe",
+      "is_correct": false
+    },
+    {
+      "question": "Which animal's limbs are also adapted for climbing trees?",
+      "choices": [
+        "three-toed sloth",
+        "sea turtle"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Which type of relationship is formed when a rat tapeworm attaches itself to a rat's intestine?",
+      "choices": [
+        "parasitic",
+        "mutualistic",
+        "commensal"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "What is the capital of California?",
+      "choices": [
+        "San Francisco",
+        "Sacramento",
+        "Jefferson City",
+        "Lansing"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nCal",
+      "is_correct": true
+    },
+    {
+      "question": "Which property do these three objects have in common?",
+      "choices": [
+        "salty",
+        "scratchy",
+        "sticky"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nAll",
+      "is_correct": true
+    },
+    {
+      "question": "Based on the arrows, which of the following living things is a decomposer?",
+      "choices": [
+        "kelp",
+        "bat star"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Is marble a mineral or a rock?",
+      "choices": [
+        "rock",
+        "mineral"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "Complete the statement.\nEthane is ().",
+      "choices": [
+        "an elementary substance",
+        "a compound"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation: Ethane",
+      "is_correct": true
+    },
+    {
+      "question": "What is the capital of Rhode Island?",
+      "choices": [
+        "Fayetteville",
+        "Huntington",
+        "Providence",
+        "Newport"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nR",
+      "is_correct": true
+    },
+    {
+      "question": "Which is this organism's scientific name?",
+      "choices": [
+        "Gavia immer",
+        "common loon"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nQuestion: Which is this",
+      "is_correct": true
+    },
+    {
+      "question": "Which of these states is farthest west?",
+      "choices": [
+        "Missouri",
+        "Florida",
+        "Montana",
+        "Oregon"
+      ],
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "generated_text": "D \n\nExplanation:\nMont",
+      "is_correct": true
+    },
+    {
+      "question": "Which property do these three objects have in common?",
+      "choices": [
+        "slippery",
+        "transparent",
+        "yellow"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nAll",
+      "is_correct": true
+    },
+    {
+      "question": "Which statement describes the Cape Breton Highlands National Park ecosystem?",
+      "choices": [
+        "It has soil that is rich in nutrients.",
+        "It has many evergreen trees."
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Which of these organisms contains matter that was once part of the lichen?",
+      "choices": [
+        "mushroom",
+        "short-tailed weasel",
+        "brown lemming",
+        "rough-legged hawk",
+        "bilberry"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "Will these magnets attract or repel each other?",
+      "choices": [
+        "attract",
+        "repel"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "What is the name of the colony shown?",
+      "choices": [
+        "New Hampshire",
+        "Vermont",
+        "New York",
+        "Delaware"
+      ],
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "generated_text": "C  \n\nExplanation:",
+      "is_correct": true
+    },
+    {
+      "question": "Which bird's beak is also adapted to catch insects?",
+      "choices": [
+        "barn swallow",
+        "hanging parrot"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?",
+      "choices": [
+        "neither; the samples have the same temperature",
+        "sample A",
+        "sample B"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nThe",
+      "is_correct": false
+    },
+    {
+      "question": "What is the capital of Connecticut?",
+      "choices": [
+        "Columbia",
+        "Bridgeport",
+        "New Haven",
+        "Hartford"
+      ],
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "generated_text": "D \n\nExplanation:\nConnect",
+      "is_correct": true
+    },
+    {
+      "question": "What is the capital of Ohio?",
+      "choices": [
+        "Wilmington",
+        "Reno",
+        "Cleveland",
+        "Columbus"
+      ],
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "generated_text": "D \n\nExplanation: Columbus",
+      "is_correct": true
+    },
+    {
+      "question": "Is dolerite a mineral or a rock?",
+      "choices": [
+        "mineral",
+        "rock"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nD",
+      "is_correct": true
+    },
+    {
+      "question": "What evidence of a wildfire does this picture show?",
+      "choices": [
+        "The grass is brown and dry.",
+        "Some of the grass on the ground is burning."
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nB",
+      "is_correct": true
+    },
+    {
+      "question": "What can Austen and Naomi trade to each get what they want?",
+      "choices": [
+        "Naomi can trade her broccoli for Austen's oranges.",
+        "Austen can trade his tomatoes for Naomi's broccoli.",
+        "Austen can trade his tomatoes for Naomi's sandwich.",
+        "Naomi can trade her almonds for Austen's tomatoes."
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nIn",
+      "is_correct": true
+    },
+    {
+      "question": "Will these magnets attract or repel each other?",
+      "choices": [
+        "repel",
+        "attract"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "generated_text": "B \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Based on the arrows, which of the following organisms is a consumer?",
+      "choices": [
+        "mushroom",
+        "lichen"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Which solution has a higher concentration of pink particles?",
+      "choices": [
+        "neither; their concentrations are the same",
+        "Solution B",
+        "Solution A"
+      ],
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "generated_text": "C \n\nExplanation:\nSince",
+      "is_correct": false
+    },
+    {
+      "question": "Identify the question that Robert's experiment can best answer.",
+      "choices": [
+        "Do steel nails take fewer days to rust in water compared to vinegar?",
+        "Do steel nails rust in fewer days when submerged in a large volume of liquid compared to a small volume?"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nExplanation:\nThe",
+      "is_correct": true
+    },
+    {
+      "question": "Does this passage describe the weather or the climate?",
+      "choices": [
+        "weather",
+        "climate"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A \n\nQuestion: Does this passage describe",
+      "is_correct": true
+    },
+    {
+      "question": "Which country is highlighted?",
+      "choices": [
+        "Haiti",
+        "Trinidad and Tobago",
+        "Cuba",
+        "the Dominican Republic"
+      ],
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "generated_text": "A  \n\nDescription: The Dominican",
+      "is_correct": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "method": "lora-all",
+  "perplexity": 2.368396919623589,
+  "avg_loss": 0.8622133210597036,
+  "num_samples": 500
+}
